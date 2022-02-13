@@ -1,0 +1,27 @@
+{
+  "name": "resource-guru",
+  "version": "1.0.0",
+  "description": "This repo contains solution to Resource Guru test",
+  "main": "index.js",
+  "type": "module",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha './test/*.js' --timeout 10000 --exit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GabrielaLucan/resource-guru.git"
+  },
+  "author": "gabrielalucan9@gmail.com",
+  "license": "ISC",
+  "homepage": "https://github.com/GabrielaLucan/resource-guru#readme",
+  "dependencies": {
+    "chai": "^4.3.6",
+    "nodemon": "^2.0.15"
+  },
+  "devDependencies": {
+    "mocha": "^9.2.0"
+  }
+}
